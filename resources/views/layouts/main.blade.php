@@ -93,7 +93,7 @@
 
 		    <div class="pull-right" style="background-color: transparent !important;"><br>
     		<a href="{{url('/register')}}"><button type="button" class="btn btn-green register">REGISTER</button></a>
-			<a href="{{url('/login')}}"><button type="button" class="btn btn-green login">LOGIN</button></a>
+			<a href="http://secureweb.adityacodes.xyz/login"><button type="button" class="btn btn-green login">LOGIN</button></a>
     	</div>
 
 		</div><!-- /.container-fluid -->
