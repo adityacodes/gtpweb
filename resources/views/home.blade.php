@@ -8,8 +8,13 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    You are logged in!
+                    You are logged in! 
+                        <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
+                            {{ csrf_field() }}
+                            <button type="button" class="btn btn-green">LOGOUT!</button>
+                        </form>
                 </div>
+
             </div>
         </div>
     </div>
