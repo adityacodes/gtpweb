@@ -64,7 +64,7 @@
 		        <a href="{{url('/what-is-mmm')}}">WHAT IS MMM?</a>
 		        </li>
 		        <li class="{{Request::is('ideology')? "active" : ""}}">
-		        	<a href="/ideology">IDEOLOGY</a>
+		        	<a href="{{url('/ideology')}}">IDEOLOGY</a>
 		        </li>
 		        <li class="{{Request::is('faq')? "active" : ""}}">
 		        	<a href="{{url('/faq')}}">FAQ</a>
@@ -91,8 +91,8 @@
 		    </div><!-- /.navbar-collapse -->
 
 		    <div class="pull-right" style="background-color: transparent !important;"><br>
-    		<button type="button" class="btn btn-green register">REGISTER</button>
-			<button type="button" class="btn btn-green login">LOGIN</button>
+    		<a href="{{url('/register')}}"><button type="button" class="btn btn-green register">REGISTER</button></a>
+			<a href="{{url('/login')}}"><button type="button" class="btn btn-green login">LOGIN</button></a>
     	</div>
 
 		</div><!-- /.container-fluid -->
