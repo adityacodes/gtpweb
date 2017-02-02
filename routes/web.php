@@ -103,7 +103,7 @@
 		]);
 
 	Route::get('register',[
-			'uses' => 'MainController@register'
+			'uses' => 'MainController@getRegister'
 		]);
 
 
