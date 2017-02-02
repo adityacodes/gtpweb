@@ -9,7 +9,7 @@
 		
 		<div class="row m-t-120">
         	<div class="col-md-offset-2 col-md-10">
-        		<iframe src="secureweb.adityacodes.xyz"></iframe>
+        		<iframe src="http://secureweb.adityacodes.xyz/register"></iframe>
 
         		
             </div>
