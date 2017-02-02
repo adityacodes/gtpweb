@@ -9,7 +9,7 @@
 
                 <div class="panel-body">
                     You are logged in! 
-                        <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
+                        <form id="logout-form" action="{{ url('/logout') }}" method="POST">
                             {{ csrf_field() }}
                             <button type="button" class="btn btn-green">LOGOUT!</button>
                         </form>
