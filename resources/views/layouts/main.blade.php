@@ -58,34 +58,34 @@
 		    <div class="collapse navbar-collapse" style="background: #2E962E;" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav">
 		        <li class="{{Request::is('/')? "active" : ""}}">
-		        	<a href="/">HOME</a>
+		        	<a href="{{url('/')}}">HOME</a>
 		        </li>
 		        <li class="{{Request::is('what-is-mmm')? "active" : ""}}" >
-		        <a href="/what-is-mmm">WHAT IS MMM?</a>
+		        <a href="{{url('/what-is-mmm')}}">WHAT IS MMM?</a>
 		        </li>
 		        <li class="{{Request::is('ideology')? "active" : ""}}">
 		        	<a href="/ideology">IDEOLOGY</a>
 		        </li>
 		        <li class="{{Request::is('faq')? "active" : ""}}">
-		        	<a href="/faq">FAQ</a>
+		        	<a href="{{url('/faq')}}">FAQ</a>
 		        </li>
 		        <li class="{{Request::is('abroad')? "active" : ""}}">
-		        	<a href="/abroad">MMM ABROAD</a>
+		        	<a href="{{url('/abroad')}}">MMM ABROAD</a>
 		        </li>
 		        <li class="{{Request::is('charity')? "active" : ""}}">
-		        	<a href="/charity">CHARITY</a>
+		        	<a href="{{url('/charity')}}">CHARITY</a>
 		        </li>
 		        <li class="{{Request::is('marketing-materials')? "active" : ""}}">
-		        	<a href="/marketing-materials">MARKETING</a>
+		        	<a href="{{url('/marketing-materials')}}">MARKETING</a>
 		        </li>
 		        <li class="{{Request::is('tutorials') || Request::is('tutorials/*')? "active" : ""}}">
-		        	<a href="/tutorials">TUTORIALS</a>
+		        	<a href="{{url('/tutorials')}}">TUTORIALS</a>
 		        </li>
 		        <li class="{{Request::is('contacts')? "active" : ""}}">
-		        	<a href="/contacts">CONTACTS</a>
+		        	<a href="{{url('/contacts')}}">CONTACTS</a>
 		        </li>
 		        <li class="{{Request::is('how-to-start-use')? "active" : ""}}">
-		        	<a href="/how-to-start-use"><img class="img-responsive" src="{{asset('images/bitcoin.png')}}"></a>
+		        	<a href="{{url('/how-to-start-use')}}"><img class="img-responsive" src="{{asset('images/bitcoin.png')}}"></a>
 		        </li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
