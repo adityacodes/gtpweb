@@ -167,7 +167,7 @@ class MainController extends Controller
 
     public function getRegister()
     {
-        return view('main.registernow')
+        return view('main.registernow');
     }
 
 
