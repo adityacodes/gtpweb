@@ -5,7 +5,7 @@
 @section('stylesheets')
 
     <!-- Owl Carousel Assets -->
-    <link href="{{public_path('css/owl-carousel/owl.carousel.css')}}" rel="stylesheet">
+    <link href="{{asset('css/owl-carousel/owl.carousel.css')}}" rel="stylesheet">
     <link href="{{asset('css/owl-carousel/owl.theme.css')}}" rel="stylesheet">
 
     <style>
