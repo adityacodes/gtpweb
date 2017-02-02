@@ -1,5 +1,6 @@
 @extends('layouts.main')
 
+@section('title', 'LOGIN')
 @section('content')
 <div class="container">
     <div class="row m-t-120">
