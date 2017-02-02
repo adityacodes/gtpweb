@@ -11,7 +11,7 @@
                     You are logged in! 
                         <form id="logout-form" action="{{ url('/logout') }}" method="POST">
                             {{ csrf_field() }}
-                            <button type="button" class="btn btn-green pull-right">LOGOUT!</button>
+                            <button type="submit" class="btn btn-green pull-right login">LOGOUT!</button>
                         </form>
                 </div>
 
