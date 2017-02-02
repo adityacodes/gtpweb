@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Ideology')
+@section('title', 'Tutorials')
 
 
 @section('content')
@@ -9,7 +9,7 @@
 		
 		<div class="row m-t-120">
         	<div class="col-md-offset-2 col-md-10">
-        		<h1 class="green-color"><strong>TUTORIALS | {{$name}}</strong></h1>
+        		<h1 class="green-color"><strong>TUTORIALS</strong></h1>
 
         		
             </div>
