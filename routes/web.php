@@ -104,7 +104,7 @@
 
 	Route::get('register',[
 			'uses' => 'MainController@register'
-		])
+		]);
 
 
 Route::get('/home', 'HomeController@index');
