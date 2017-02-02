@@ -311,7 +311,7 @@
 	</div>
 
 
-
+<a href="https://youtu.be/d_9UrEa4l7o?iframe=true&amp;width=100%&amp;height=100%&amp;rel=0" rel="prettyPhoto[gallery_name]" class="hidden" id="welcome" target="_blank"></a> 
 @endsection
 
 
@@ -345,6 +345,9 @@
                     }
                 }
             });
+
+          $("#welcome").trigger('click')
+
         });
     </script>
 
