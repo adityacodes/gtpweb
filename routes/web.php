@@ -78,7 +78,29 @@
 			'uses'=>'MainController@getHowto'
 		]);	
 		
-Auth::routes();
-Auth::routes();
+// Auth::routes();
+	
+	Route::get('gtpadmin', [ 
+			'as' => 'login', 
+			'uses'=>'Auth\LoginController@showLoginForm'
+		]);	
+	Route::post('gtplogin', [  
+			'uses'=>'Auth\LoginController@login'
+		]);
+
+	Route::post('logout', [ 
+			'as' => 'logout', 
+			'uses'=>'Auth\LoginController@logout'
+		]);
+
+	Route::get('gtpregister', [ 
+			'as' => 'register', 
+			'uses'=>'Auth\RegisterController@showRegistrationForm'
+		]);
+
+	Route::post('gtpregister', [  
+			'uses'=>'Auth\RegisterController@register'
+		]);
+
 
 Route::get('/home', 'HomeController@index');

@@ -14,7 +14,8 @@
     <link href="{{asset('css/font-awesome.min.css')}}" type="text/css" rel="stylesheet">
 
 
-    <link rel="stylesheet" type="text/css" href="{{asset('css/prettyPhoto.css')}}">
+
+    @include('partials._prettyPhotoCss')
     <!-- <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css"> -->
 
     @yield('stylesheets')
@@ -107,9 +108,6 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="{{asset('js/bootstrap.min.js')}}"></script>
-
-
-
     <script type="text/javascript" src="{{asset('js/jquery.prettyPhoto.js')}}"></script>
 
     <script type="text/javascript">
