@@ -1,62 +1,13 @@
 @extends('layouts.main')
 
-@section('title', 'Home')
+@section('title', 'HOME')
 
 @section('stylesheets')
-
     <!-- Owl Carousel Assets -->
     <link href="{{asset('css/owl-carousel/owl.carousel.css')}}" rel="stylesheet">
     <link href="{{asset('css/owl-carousel/owl.theme.css')}}" rel="stylesheet">
-
-    <style>
-    #owl-demo .item{
-        margin: 3px;
-        position: relative;
-    }
-    #owl-demo .item img{
-        display: block;
-        width: 100%;
-        height: auto;
-    }
-
-    .owl-prev {
-      position:absolute;
-      top:50%;
-      padding:5px;
-      margin:0;
-      z-index:100;
-      font-size:3rem;
-      cursor:pointer;
-      color:#555; 
-    }
-
-    .owl-prev {
-      left:-60px;
-    }
-    .owl-next{
-        display:none !important;
-    }
-
-
-    .owl-theme .owl-controls .owl-buttons div{
-      color: #555;
-      display: inline-block;
-      zoom: 1;
-      *display: inline;/*IE7 life-saver */
-      font-size: 3rem;
-      -webkit-border-radius: 0px;
-      -moz-border-radius: 0px;
-      border-radius: 0px;
-      background: transparent;
-      filter: Alpha(Opacity=100);/*IE7 fix*/
-      opacity: 1;
-      margin-top:-32px;
-    }
-
-    .owl-theme .owl-controls .owl-buttons div:hover {
-      color:#2a6496;
-      }
-    </style>
+    <link href="{{asset('css/owl-carousel/mycustomstyle.css')}}" rel="stylesheet">
+    
 @endsection
 
 @section('content')
@@ -64,13 +15,13 @@
 	<div class="container-fluid">
 		
 		<div class="row banner">
-            <div class="m-t-120">
+            <div class="m-t-10">
             	<div class="col-md-2">&nbsp;
 	            </div>
 	            <div class="col-md-4 text-center white-color">
-	                <h1 >ATTENTION</h1>
+	                <h1 >ATTENTION!</h1>
 	                <h3>WELCOME TO <span class="mtitle">MMMGLOBAL.COM</span> WEBSITE !</h3>
-					<h4>This is a community of ordinary people, selflessly helping each other, a kind of the Global Fund of mutual aid. This is the first sprout of something new in the modern soulless and ruthless world of greed and hard cash. The goal here is not the money. The goal is to destroy the world's unjust financial system. Financial Apocalypse! Before you join, be sure to be acquainted with our IDEOLOGY!
+					<h4>This is a community of ordinary people, selflessly helping each other, a kind of the Global Fund of mutual aid. This is the first sprout of something new in the modern soulless and ruthless world of greed and hard cash. The goal here is not the money. The goal is to destroy the world's unjust financial system. Financial Apocalypse! Before you join, be sure to be acquainted with our <a class="ideology" href="{{url('/ideology')}}">IDEOLOGY</a>!
 					</h4><br>
 	                <a class="btn btn-danger btn-lg text-center btn-block" style="background-color: red; " href="http://placehold.it/400x300">
 	                	<img class="pull-left img-responsive" style="margin-top: -40px;" src="{{asset('/images/ico_questions.png')}}">
@@ -94,8 +45,14 @@
 					  <div class="panel-body">
 
 					  		<marquee scrollamount="1" direction="up" height="270">
+                                <strong>2017-02-03</strong>
+                                <p style="word-wrap: break-word;">
+                                    MMM community family members, I am from Zhejiang ordinary members, my name is Wei, I on October 26 to provide 10,000 dollars to help, before I have applied for part of the interest on November 26 to extract the principal and interest again Plus a total of 14,830 US dollars registered bonus, in the month of this month, get the help of friends all over the country, where I feel MMM family and friends to good, trust, mutual help atmosphere, and happiness in interest, which is Other industries do not have. To tell the truth, I just started not quite believe, and now really think MMM this platform is very magical and incredible. Thank you, Mr. Mavroj quarterly MMM provides us with such a good platform, I hope more people join the MMM community of Chinese communities, to achieve their own aspirations.
+                                </p>
 					  			<strong>31-01-2017</strong>
 					  			<p>Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.Hello this is a notice.</p>
+
+                                
 					  		</marquee>
 					  </div>
 					</div>
@@ -311,7 +268,7 @@
 	</div>
 
 
-<a href="https://youtu.be/d_9UrEa4l7o?iframe=true&amp;width=100%&amp;height=100%&amp;rel=0" rel="prettyPhoto[gallery_name]" class="hidden" id="welcome" target="_blank"></a> 
+<a href="https://youtu.be/d_9UrEa4l7o?iframe=true&amp;width=100%&amp;height=100%&amp;rel=0" rel="prettyPhoto[gallery]" class="hidden" id="welcome" target="_blank"></a> 
 @endsection
 
 
@@ -346,7 +303,7 @@
                 }
             });
 
-          $("#welcome").trigger('click')
+          // $("#welcome").trigger('click')
 
         });
     </script>

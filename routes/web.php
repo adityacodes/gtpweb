@@ -76,6 +76,11 @@
 	Route::get('how-to-start-use', [ 
 			'as' => 'main.howto', 
 			'uses'=>'MainController@getHowto'
+		]);
+
+	Route::get('how-to-participate', [ 
+			'as' => 'main.howtoparticipate', 
+			'uses'=>'MainController@getHowToParticipate'
 		]);	
 		
 // Auth::routes();

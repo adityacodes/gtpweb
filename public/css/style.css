@@ -1,9 +1,16 @@
 body{
 	padding-top: 100px; 
 }
+
 .faqques > u{
 	font-size: 20px;
 	color: black;
+}
+.ideology,
+.ideology:hover,
+.ideology:focus{
+	color: white;
+	text-decoration: underline;
 }
 .navbar-header{
 	
@@ -12,6 +19,21 @@ body{
 .green-color{
 	color: #2E962E;
 }
+
+.blue-button{
+	background-color: #0033FF;
+	color: white;
+	border-bottom: 2px solid red;
+}
+
+.blue-button:hover,
+.blue-button:focus{
+	background-color: black;
+	color: white;
+	border-bottom: 2px solid red;
+}
+
+
 .newnav{
 	position: absolute;
 	margin-left: 100px;
@@ -143,11 +165,11 @@ body{
 }
 
 .m-t-20{
-	margin-top: 20px;
+	margin-top: 20%;
 }
 
-.m-t-120{
-	margin-top: 120px;
+.m-t-10{
+	margin-top: 10%;
 }
 
 .panel-default {

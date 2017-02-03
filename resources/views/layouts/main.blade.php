@@ -35,7 +35,7 @@
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
 		    	<button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><i class="fa fa-home" aria-hidden="true"></i> MENU</button>
-			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
 			        <span class="sr-only">Toggle navigation</span>
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
@@ -86,15 +86,43 @@
 		        	<a href="{{url('/contacts')}}">CONTACTS</a>
 		        </li>
 		        <li class="{{Request::is('how-to-start-use')? "active" : ""}}">
-		        	<a href="{{url('/how-to-start-use')}}"><img class="img-responsive" src="{{asset('images/bitcoin.png')}}"></a>
+		        	<a href="{{url('/how-to-start-use')}}"><img class="" style="height: 20px;" src="{{asset('images/bitcoin.png')}}"></a>
 		        </li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
+		    <br>
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+		    	<ul class="col-md-offset-2 list-inline">
+		    		<li class="hidden-xs {{Request::is('/legality')? "active" : ""}}">
+		    			<a href="{{url('/legality')}}">
+		    				<button type="button" class="btn btn-default">LEGALITY</button>
+		    			</a>
+		    		</li>
+		    		<li class="hidden-xs {{Request::is('/how-to-participate')? "active" : ""}}">
+		    			<a href="{{url('/how-to-participate')}}">
+		    				<button type="button" class="btn btn-danger {{Request::is('/')? 'hidden' : ''}}">HOW TO PARTICIPATE MMMGLOBAL?</button>
+		    			</a>
+		    		</li>
 
-		    <div class="pull-right" style="background-color: transparent !important;"><br>
-    		<a href="{{url('/register')}}"><button type="button" class="btn btn-green register">REGISTER</button></a>
-			<a href="http://secureweb.adityacodes.xyz/login"><button type="button" class="btn btn-green login">LOGIN</button></a>
-    	</div>
+		    		<li class="hidden-xs {{Request::is('/')? 'col-md-offset-4' : 'col-md-offset-2'}}  {{Request::is('/ads')? "active" : ""}}">
+		    			<a href="{{url('/ads')}}">
+		    				<button type="button" class="btn btn-primary blue-button">ADVERTISEMENT CLIPBOARD</button>
+		    			</a>
+		    		</li>
+		    	
+		    		<li class="pull-right {{Request::is('/register')? "active" : ""}}">
+		    			<a href="{{url('/register')}}">
+		    				<button type="button" class="btn btn-green register">REGISTER</button>
+		    			</a>
+		    		</li>
+		    		<li class="pull-right">
+						<a href="http://secureweb.adityacodes.xyz/login">
+							<button type="button" class="btn btn-green login">LOGIN</button>
+						</a>
+					</li>
+				</ul>
+		    </div>
+		    
 
 		</div><!-- /.container-fluid -->
 	</nav>

@@ -164,10 +164,26 @@ class MainController extends Controller
         return view('main.whatis');
     }
 
+    /**
+     * Show the application Registration page.
+     *
+     * @return \Illuminate\Http\Response
+     */
+
 
     public function getRegister()
     {
         return view('main.registernow');
+    }
+
+    /**
+     * Show the application How To Participate page.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function getHowToParticipate()
+    {
+        return view('main.howtoparticipate');
     }
 
 
