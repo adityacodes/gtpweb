@@ -12,7 +12,7 @@
         		<h1 class="green-color"><strong>CONTACT US</strong></h1>
         		<!-- 16:9 aspect ratio -->
 				<div class="embed-responsive embed-responsive-4by3">
-        			<iframe style="overflow-y: none !important; " frameborder="0" width="1055" height="1055" src="http://localhost:8000/contact-us"></iframe>
+        			<iframe style="overflow-y: none !important; " frameborder="0" width="1055" height="1055" src="http://secureweb.adityacodes.xyz/contact-us"></iframe>
         		</div>
 
         		
