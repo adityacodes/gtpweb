@@ -1,0 +1,47 @@
+#owl-demo .item{
+    margin: 3px;
+    position: relative;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.owl-prev {
+  position:absolute;
+  top:50%;
+  padding:5px;
+  margin:0;
+  z-index:100;
+  font-size:3rem;
+  cursor:pointer;
+  color:#555; 
+}
+
+.owl-prev {
+  left:-60px;
+}
+.owl-next{
+    display:none !important;
+}
+
+
+.owl-theme .owl-controls .owl-buttons div{
+  color: #555;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;/*IE7 life-saver */
+  font-size: 3rem;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  background: transparent;
+  filter: Alpha(Opacity=100);/*IE7 fix*/
+  opacity: 1;
+  margin-top:-32px;
+}
+
+.owl-theme .owl-controls .owl-buttons div:hover {
+  color:#2a6496;
+ }
