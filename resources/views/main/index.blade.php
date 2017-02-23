@@ -20,13 +20,13 @@
 	            </div>
 	            <div class="col-md-4 text-center white-color">
 	                <h1 >ATTENTION!</h1>
-	                <h3>WELCOME TO <span class="mtitle">MMMGLOBAL.COM</span> WEBSITE !</h3>
+	                <h3>WELCOME TO <span class="mtitle">MMM-UNION.ORG</span> WEBSITE !</h3>
 					<h4>This is a community of ordinary people, selflessly helping each other, a kind of the Global Fund of mutual aid. This is the first sprout of something new in the modern soulless and ruthless world of greed and hard cash. The goal here is not the money. The goal is to destroy the world's unjust financial system. Financial Apocalypse! Before you join, be sure to be acquainted with our <a class="ideology" href="{{url('/ideology')}}">IDEOLOGY</a>!
 					</h4><br>
 	                <a class="btn btn-danger btn-lg text-center btn-block" style="background-color: red; " href="http://placehold.it/400x300">
 	                	<img class="pull-left img-responsive" style="margin-top: -40px;" src="{{asset('/images/ico_questions.png')}}">
 	                	<h4>HOW TO BEGIN TO PARTICIPATE</h4>
-	                	<h4>MMMGLOBAL.COM?</h4>
+	                	<h4>MMM-UNION.ORG?</h4>
 	                	<div class="clearfix"></div>
 	                </a>
 
@@ -303,7 +303,7 @@
                 }
             });
 
-          // $("#welcome").trigger('click')
+          $("#welcome").trigger('click')
 
         });
     </script>

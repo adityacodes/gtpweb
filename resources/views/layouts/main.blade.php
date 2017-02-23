@@ -33,7 +33,7 @@
 			  
 		<div class="container-fluid">
 		    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
+		    <div class="navbar-header" style="background-color: #2E962E; ">
 		    	<button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><i class="fa fa-home" aria-hidden="true"></i> MENU</button>
 			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
 			        <span class="sr-only">Toggle navigation</span>
@@ -41,12 +41,13 @@
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			      </button>
-			      <a class="navbar-brand hidden-xs" href="http://placehold.it/400x300">
-	                    <img class="img-responsive" src="http://placehold.it/240x100&text=Brand" alt="">
+			      <a class="navbar-brand hidden-xs"  href="http://placehold.it/400x300">
+	                    <img class="img-responsive center-block green-bg"  src="{{asset('images/logo.png')}}" alt="">
 
 		            	<div class="green-bg white-color text-center">
+		            		<p class="text-center" style="font-size: 30px;"	><strong>UNION</strong></p>
 		            		<p>SOCIAL FINANCIAL NETWORK</p>
-			            	<img class="img-responsive" style="margin-top: 20px;" src="http://placehold.it/250x250&text=Logo">
+			            	<img class="img-responsive center-block" style="margin-top: 20px;" src="{{asset('images/spm.jpg')}}">
 			            	
 			            	<img src="{{asset('images/bitcoin1.png')}}">
 			            	<div class="clearfix"></div>
@@ -116,7 +117,7 @@
 		    			</a>
 		    		</li>
 		    		<li class="pull-right">
-						<a href="http://secureweb.adityacodes.xyz">
+						<a href="http://securelogin.mmm-union.org">
 
 							<button type="button" class="btn btn-green login">LOGIN</button>
 						</a>
